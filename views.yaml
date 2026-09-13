@@ -12,7 +12,7 @@
 - id: view-it4it-value-streams
   name: "IT4IT: Value Streams"
   viewpoint: value_stream
-  diagram: value-streams
+  diagram: vision/value-streams
   # The 7 streams and the outcome they jointly realize. No stage
   # decomposition — see the per-stream views below for that.
   # no_direction: [Flow] because Evaluate has a bidirectional Flow edge to
@@ -63,7 +63,7 @@
 - id: view-it4it-capability-map
   name: "IT4IT: Capability Map"
   viewpoint: capability
-  diagram: capability-map
+  diagram: vision/capability-map
   # All 42 IT4IT 3.0 capabilities, plus the 4 canonical value-stream domain
   # Groupings that nest 34 of them (Aggregation, relationships.yaml)
   # — the only genuine cap-to-cap structure the source model carries. The
@@ -124,7 +124,7 @@
 - id: view-it4it-stakeholder
   name: "IT4IT: Stakeholder"
   viewpoint: stakeholder
-  diagram: stakeholder
+  diagram: vision/stakeholder
   # The 24 named IT4IT stakeholder roles. The source model has no Driver or
   # Assessment elements to connect them to, so this renders as a catalog —
   # same situation as view-it4it-capability-map before its domain groupings.
@@ -157,7 +157,7 @@
 - id: view-it4it-outcome-realization
   name: "IT4IT: Outcome Realization"
   viewpoint: outcome_realization
-  diagram: outcome-realization
+  diagram: vision/outcome-realization
   # The 7 value streams (plus their root) and the 36 Outcomes they realize —
   # separate from view-it4it-value-streams so that view can stay focused on
   # stream-to-stream Flow sequencing without 36 extra outcome boxes.
