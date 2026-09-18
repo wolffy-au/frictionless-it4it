@@ -1,5 +1,7 @@
 # it4it
 
+[![Consumed by frictionless-architect](https://img.shields.io/badge/consumed%20by-frictionless--architect-blue)](https://github.com/wolffy-au/frictionless-architect)
+
 IT4IT 3.0 value-stream reference model, vendored as plain YAML
 (`elements.yaml` / `relationships.yaml`) in the schema authoring convention
 used by `frictionless-architect` — see that repo's
